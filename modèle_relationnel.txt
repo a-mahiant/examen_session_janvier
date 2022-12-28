@@ -1,0 +1,16 @@
+
+element(id, date, time, nbr_inscript, approved, location_id)
+
+location (id, address, latitude, longitude, name_city)
+
+visitor (id, date_visit, element_id)
+
+admin (id, username, password)
+
+photo (id, URL, code_photo, element_id)
+
+cities (name_city, pop_density, leading_party, spoken_lang_id)
+
+spoken_lang (id, lang)
+
+processes(admin_id, element_id, date)

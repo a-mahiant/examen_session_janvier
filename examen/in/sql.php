@@ -1,0 +1,2 @@
+<?php try{$bdd = $bdd = new PDO('mysql:host=eu-cdbr-west-03.cleardb.net;dbname=heroku_4b67eb0fc176a2b;', 'b160b9692ff671', '9bb860d9gumkur-maqZak-wipse4', array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8'));$bdd->query('SET lc_time_names = \'en_EN\'');}catch(Exception $e){die('Erreur : ' . $e->getMessage());}
+?>
